@@ -1,0 +1,15 @@
+<h2>Pessoa Detalhes</h2> 
+
+<hr/>
+<div *ngIf="pessoa">
+  <div>
+    <label><b>Nome: </b></label> {{pessoa.nome}}
+  </div>
+  <div>
+    <label><b>Email: </b></label> {{pessoa.email}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="lista()" class="btn btn-primary">Voltar Lista Pessoas</button><br>
